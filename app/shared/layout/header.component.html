@@ -1,0 +1,36 @@
+<div class="row row-general header">
+    <div class="col-md-2 col-general">
+        <div class="header-logo">
+            <div class="header-logo-img"></div>   
+        </div>   
+    </div>
+    <div class="col-md-8 col-general">
+        <ul class="header-nav">
+            <li *ngFor="let item of navList; let key=index;">
+                <a class="nav-link" [routerLink]="[navList[key].path]" (click)="clickLink(key)" omnitureOn [omniEvent]="navList[key].omniTrack">
+                    <div [ngClass]="{'nav-name' : true, 'active' : navList[key].checked}">{{ navList[key].name }}</div>
+                </a>
+                
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-2 col-general" style="padding: 0;">
+        <div class="header-set">
+            <div class="header-set-box">
+                <a class="header-set-link" [routerLink]="">
+                    <div class="nav-icon icon-grid-view-mono"></div>
+                </a>
+            </div>
+            <div class="header-set-box">
+                <a class="header-set-link" [routerLink]="">
+                    <div class="nav-icon icon-profile-mono"></div>
+                </a>
+            </div>
+            <div class="header-set-box">
+                <a class="header-set-link" [routerLink]="">
+                    <div class="nav-icon icon-comment-mono"><span class="red-mark">3</span></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
