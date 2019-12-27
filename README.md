@@ -1,18 +1,13 @@
-An angular project starter kit including modern tools and workflow based on
-[angular-cli](https://github.com/angular/angular-cli), best practices from the community, a scalable base template and
-a good learning base.
+|     | krios      | 3            | LS TEM       | deviceId=f6879db5-d381-591e-96c6-da8464532602 |                   |                       |                |
+| --- | ---------- | ------------ | ------------ | --------------------------------------------- | ----------------- | --------------------- | -------------- |
+| NOW | FEG source | Vacuum       | Emission     | Column                                        | Autoloader        | Detectors             |                |
+| ADD | Source     | High Tension | Vacuum       | Column                                        | Detectors         | Autoloader            | Motion         |
+|     | Metrios    | 4            | Semi TEM     | deviceId=599334c3-41f4-5006-b710-69968f5fd176 |                   |                       |                |
+| NOW | FEG source | Vacuum       | High Tension | Column                                        | Detectors         |                       |                |
+| ADD | Source     | High Tension | Vacuum       | Column                                        | Detectors         | Motion                |                |
+|     | Helios     | 1/2          |              | deviceId=75febb0d-98c9-5f42-b063-8872274d3a82 |                   |                       |                |
+| NOW | FEG source | Vacuum       | Ion Source   | Load lock                                     | Stage             | FIB apertures (top 3) |                |
+| ADD | SEM        | FIB          | Vacuum       | Motion                                        | InsertableDevices | Detectors             | Sample loading |
 
-### Benefits
 
-- Quickstart a project in seconds and focus on features, not on frameworks or tools]
-
-- Configurable permission management
-
-- Omniture analytic integration module
-
-- Configurable layout for the component when rendering.
-
-- Industrial-grade tools, ready for usage in a continuous integration environment and DevOps
-
-- Scalable architecture with base app template including example components, services and tests
-
+    
